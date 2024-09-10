@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root{
+    --cor-fundo: #CFA999;
+    --cor-fonte: #F1E0CB;
+    --cor-fonte-secundária: #5e2c30;
+    --fonte-principal: "Libre Baskerville", system-ui;
+    
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+}
+
+
+.container, .sobre_mim{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.container__textos{
+    margin-top: 10em;
+}
+
+.titulo, .titulo__form{
+    font-size: 3em;
+    color: var(--cor-fonte);
+}
+
+.titulo__sub{
+    font-size: 1.8em;
+    color: var(--cor-fonte-secundária);
+    margin-top: 0.1em;
+}
+
+.texto, .texto__sobre__mim{
+    font-size: 1.1em;
+    margin-top: 1.8em;
+    width: 500px;
+    text-align: justify;
+    line-height: 1.3em;
+    color: var(--cor-fonte-secundária);
+}
+
+.botao{
+    width: 10em;
+    height: 2.5em;
+    border-radius: 50em;
+    color: var(--cor-fonte);
+    background-color: var(--cor-fonte-secundária);
+    margin-top: 3em;
+    border: none;
+}
+
+.botao:hover{
+    opacity: 0.8;
+}
+
+.container__imagem__img{
+    width: 500px;
+    height: 500px;
+    margin-top: 2em;
+}
+
+.sobre_mim{
+    background-color: var(--cor-fonte);
+}
+
+.titulo__sobre__mim{
+    color: var(--cor-fonte-secundária);
+    font-size: 4em;
+    text-align: center;
+}
+
+.campo__formulario{
+    height: 100vh;
+}
+
+#formulario{
+    color: var(--cor-fonte-secundária);
+    margin-top: 3em;
+}
+
+
+
+
+
+
